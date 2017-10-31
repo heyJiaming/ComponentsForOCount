@@ -14,6 +14,10 @@
 		EA41EF691F8CA54D00EA8F3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA41EF671F8CA54D00EA8F3E /* LaunchScreen.storyboard */; };
 		EA41EF741F8CA54D00EA8F3E /* CubeTransitionViewTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA41EF731F8CA54D00EA8F3E /* CubeTransitionViewTestTests.swift */; };
 		EA41EF7F1F8CA54D00EA8F3E /* CubeTransitionViewTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA41EF7E1F8CA54D00EA8F3E /* CubeTransitionViewTestUITests.swift */; };
+		EA41EF8F1F8CA69E00EA8F3E /* CubicTransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA41EF8E1F8CA69E00EA8F3E /* CubicTransitionView.swift */; };
+		EA6319A71F8CDDC800D44012 /* ContentView2.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA6319A61F8CDDC800D44012 /* ContentView2.xib */; };
+		EA6319A91F8CF5CA00D44012 /* CostumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6319A81F8CF5CA00D44012 /* CostumView.swift */; };
+		EA6A5CCE1F8E652D007579E1 /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6A5CCD1F8E652D007579E1 /* ContainerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		EA41EF7A1F8CA54D00EA8F3E /* CubeTransitionViewTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CubeTransitionViewTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA41EF7E1F8CA54D00EA8F3E /* CubeTransitionViewTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeTransitionViewTestUITests.swift; sourceTree = "<group>"; };
 		EA41EF801F8CA54D00EA8F3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA41EF8E1F8CA69E00EA8F3E /* CubicTransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubicTransitionView.swift; sourceTree = "<group>"; };
+		EA6319A61F8CDDC800D44012 /* ContentView2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContentView2.xib; sourceTree = "<group>"; };
+		EA6319A81F8CF5CA00D44012 /* CostumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostumView.swift; sourceTree = "<group>"; };
+		EA6A5CCD1F8E652D007579E1 /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +107,14 @@
 			children = (
 				EA41EF5E1F8CA54D00EA8F3E /* AppDelegate.swift */,
 				EA41EF601F8CA54D00EA8F3E /* ViewController.swift */,
+				EA6A5CCD1F8E652D007579E1 /* ContainerView.swift */,
+				EA6319A81F8CF5CA00D44012 /* CostumView.swift */,
 				EA41EF621F8CA54D00EA8F3E /* Main.storyboard */,
+				EA6319A61F8CDDC800D44012 /* ContentView2.xib */,
 				EA41EF651F8CA54D00EA8F3E /* Assets.xcassets */,
 				EA41EF671F8CA54D00EA8F3E /* LaunchScreen.storyboard */,
 				EA41EF6A1F8CA54D00EA8F3E /* Info.plist */,
+				EA41EF8D1F8CA5F700EA8F3E /* CubeTransitionView */,
 			);
 			path = CubeTransitionViewTest;
 			sourceTree = "<group>";
@@ -123,6 +135,14 @@
 				EA41EF801F8CA54D00EA8F3E /* Info.plist */,
 			);
 			path = CubeTransitionViewTestUITests;
+			sourceTree = "<group>";
+		};
+		EA41EF8D1F8CA5F700EA8F3E /* CubeTransitionView */ = {
+			isa = PBXGroup;
+			children = (
+				EA41EF8E1F8CA69E00EA8F3E /* CubicTransitionView.swift */,
+			);
+			path = CubeTransitionView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA41EF691F8CA54D00EA8F3E /* LaunchScreen.storyboard in Resources */,
+				EA6319A71F8CDDC800D44012 /* ContentView2.xib in Resources */,
 				EA41EF661F8CA54D00EA8F3E /* Assets.xcassets in Resources */,
 				EA41EF641F8CA54D00EA8F3E /* Main.storyboard in Resources */,
 			);
@@ -259,6 +280,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA6A5CCE1F8E652D007579E1 /* ContainerView.swift in Sources */,
+				EA41EF8F1F8CA69E00EA8F3E /* CubicTransitionView.swift in Sources */,
+				EA6319A91F8CF5CA00D44012 /* CostumView.swift in Sources */,
 				EA41EF611F8CA54D00EA8F3E /* ViewController.swift in Sources */,
 				EA41EF5F1F8CA54D00EA8F3E /* AppDelegate.swift in Sources */,
 			);

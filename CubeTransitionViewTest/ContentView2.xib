@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController" customModule="CubeTransitionViewTest" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Sl4-5m-VUC" customClass="CostumView" customModule="CubeTransitionViewTest" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IJX-Ii-rin">
+                    <rect key="frame" x="0.0" y="0.0" width="187.5" height="667"/>
+                    <subviews>
+                        <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w5n-lG-nWY">
+                            <rect key="frame" x="0.0" y="0.0" width="10" height="667"/>
+                            <color key="backgroundColor" red="0.0020243730145378391" green="1" blue="0.97625167318443751" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="10" id="Dhq-Ip-lHl"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UVM-Fk-Wnu">
+                            <rect key="frame" x="64" y="251" width="73" height="60"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hwD-ku-IJc">
+                            <rect key="frame" x="47" y="163" width="92" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="Say Name"/>
+                            <connections>
+                                <action selector="sayName:" destination="-1" eventType="touchUpInside" id="AnU-kj-xaz"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kDu-9d-L7U">
+                            <rect key="frame" x="47" y="201" width="92" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <state key="normal" title="Say Name"/>
+                            <connections>
+                                <action selector="sayName:" destination="-1" eventType="touchUpInside" id="r8f-95-k4q"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.45265793910000002" blue="0.4420580301" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="w5n-lG-nWY" secondAttribute="bottom" id="0o0-1C-bdO"/>
+                        <constraint firstItem="w5n-lG-nWY" firstAttribute="leading" secondItem="IJX-Ii-rin" secondAttribute="leading" id="JMI-uk-xv7"/>
+                        <constraint firstItem="w5n-lG-nWY" firstAttribute="top" secondItem="IJX-Ii-rin" secondAttribute="top" id="Jx5-XU-mE2"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="k7y-QA-wbl">
+                    <rect key="frame" x="187" y="0.0" width="187.5" height="667"/>
+                    <color key="backgroundColor" red="0.58258016030000004" green="0.6286999767" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tOg-iL-J0m">
+                    <rect key="frame" x="0.0" y="657" width="375" height="10"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="10" id="Wlh-Ge-ZyO"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="IJX-Ii-rin" secondAttribute="bottom" id="FA2-Tr-Luz"/>
+                <constraint firstItem="tOg-iL-J0m" firstAttribute="leading" secondItem="zYJ-MJ-QeH" secondAttribute="leading" id="GON-SX-LAK"/>
+                <constraint firstItem="zYJ-MJ-QeH" firstAttribute="bottom" secondItem="tOg-iL-J0m" secondAttribute="bottom" id="GWX-Wj-oDf"/>
+                <constraint firstAttribute="bottom" secondItem="k7y-QA-wbl" secondAttribute="bottom" id="Iw0-RY-ewf"/>
+                <constraint firstItem="zYJ-MJ-QeH" firstAttribute="trailing" secondItem="tOg-iL-J0m" secondAttribute="trailing" id="MLx-Uf-ely"/>
+                <constraint firstItem="IJX-Ii-rin" firstAttribute="width" secondItem="Sl4-5m-VUC" secondAttribute="width" multiplier="0.5" id="QxW-zj-NRo"/>
+                <constraint firstItem="k7y-QA-wbl" firstAttribute="width" secondItem="Sl4-5m-VUC" secondAttribute="width" multiplier="0.5" id="WiV-Ya-jd8"/>
+                <constraint firstAttribute="trailing" secondItem="k7y-QA-wbl" secondAttribute="trailing" constant="0.5" id="aGC-qX-R8X"/>
+                <constraint firstItem="IJX-Ii-rin" firstAttribute="leading" secondItem="Sl4-5m-VUC" secondAttribute="leading" id="guc-VT-hGW"/>
+                <constraint firstItem="k7y-QA-wbl" firstAttribute="top" secondItem="Sl4-5m-VUC" secondAttribute="top" id="iyI-BB-qaA"/>
+                <constraint firstItem="IJX-Ii-rin" firstAttribute="top" secondItem="Sl4-5m-VUC" secondAttribute="top" id="lFb-Io-MCh"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="zYJ-MJ-QeH"/>
+            <connections>
+                <outlet property="label" destination="UVM-Fk-Wnu" id="DCj-bG-brt"/>
+            </connections>
+            <point key="canvasLocation" x="-30.5" y="33.5"/>
+        </view>
+    </objects>
+</document>
